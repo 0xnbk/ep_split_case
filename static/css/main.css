@@ -1,0 +1,20 @@
+.split_image {
+    background: transparent url("../img/split.gif") no-repeat right top;
+    border: 0;
+    border-top: 1px dotted #CCC;
+    display: block;
+    width: 95%;
+    height: 8px;
+    margin: 15px auto 1px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.buttonicon-ab-split {
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/a_b_split.png');
+    display: inline-block;
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+}
+

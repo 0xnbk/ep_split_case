@@ -1,0 +1,17 @@
+{
+  "name": "ep_split_case",
+  "description": "A/B/C split case for CaseMaker",
+  "version": "0.0.1",
+  "author": {
+    "name": "Nikhil Ben Kuruvilla",
+    "email": "nbk@phases.dk",
+    "url": "http://phases.dk"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "ep_split_case@0.0.1",
+  "_from": "ep_split_case@"
+}
