@@ -1,8 +1,3 @@
-exports.aceInitInnerdocbodyHead = function(hook_name, args, cb) {
-  args.iframeHTML.push('<link rel="stylesheet" type="text/css" href="/static/plugins/ep_embedmedia/static/css/ace.css"/>');
-  return cb();
-};
-
 exports.aceAttribsToClasses = function(hook_name, args, cb) {
   if (args.key == 'embedMedia' && args.value != "")
     return cb(["embedMedia:" + args.value]);
@@ -97,7 +92,7 @@ exports.cleanEmbedCode = function (orig) {
   }
 
   if (!res) {
-    return  "<img src='/static/plugins/ep_embedmedia/static/html/invalid.png'>";
+    return  '<img class="split_image" title="Split here..." alt="" src="../static/img/trans.gif">';
   }
 
   return res;
